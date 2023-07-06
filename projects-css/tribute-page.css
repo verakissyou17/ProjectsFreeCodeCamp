@@ -1,0 +1,67 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: blanchedalmond;
+    margin-top: 1em;
+  }
+
+  #title {
+    text-align: center;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.534);
+    margin: 0 auto;
+    position: fixed;
+    top: 5rem;
+    left: 25rem;
+  }
+
+  #image {
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+  align-content: center;
+  margin: .5em;
+  }
+
+  .change-color {
+    color: #06315a;
+  }
+
+  .bold {
+    font-weight: 800;
+    font-size: 28px;
+  }
+
+  #tribute-info {
+    margin: 1em auto;
+    padding: 2em;
+  }
+
+  .text-info {
+    padding: 10px auto;
+    margin-top: 20px;
+    font-size: 28px; 
+    
+  }
+
+  #tribute-link {
+    color: rgb(114, 6, 6);
+  }
+
+  #img-caption {
+    font-style: italic;
+    font-size: 28px;
+    color: rgb(114, 6, 6);
+  }
+
+  #img-div {
+    align-items: center;
+  }
+
+  #main {
+    align-items: center;
+  }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="projects-css/styles-form.css">
+</head>
+<body>
+  <h1 id="title">Register Formular</h1>
+  <p id="description">
+    Complete this formular to register to our website</p>
+
+  <form id="survey-form">
+
+    <fieldset>
+     <label id="name-label" class="design"  for="name">Name:  
+       <input class="input-field"  placeholder="Name" id="name" type="text" required="">
+    </label>
+    <label id="email-label" class="design"  for="email">Email: 
+       <input class="input-field" placeholder="Email" id="email" type="email" required="">
+    </label>
+    <label id="number-label" class="design" for="number">Age:  
+     <input class="input-field"  placeholder="Age" type="number" id="number" min="18" max="120" required="">
+    </label>
+    </fieldset>
+
+  <fieldset>
+    <label for="dropdown" class="design">Sex:
+      <select id="dropdown"> 
+        <option value="">select one</option>
+        <option value="1">Woman</option>
+        <option value="2">Man</option>
+      </select>
+    </label>
+  </fieldset>
+
+  <fieldset>
+    <label for="highschool"><input id="highschool" value="highschool" type="radio" name="school">
+      Highschool
+    </label>
+    <label for="university"><input id="university" value="university" type="radio" name="school">
+      University
+    </label>
+  </fieldset>
+
+  <fieldset>
+    <legend>English</legend>
+  <label class="studies" for="a1-a2"><input id="a1-a2" type="checkbox" value="text">
+    A1-A2
+      </label>
+    <label class="studies" for="b1-b2"><input id="b1-b2" type="checkbox" value="text">
+      B1-B2
+    </label>
+    <label class="studies" for="c1-c2"><input id="c1-c2" type="checkbox" value="text">
+      C1-C2
+    </label>
+  </fieldset>
+
+  <fieldset>
+      <textarea class="textarea"  placeholder="Write something about you"
+       rows="5" cols="50"></textarea>
+  </fieldset>
+
+  <input type="submit" id="submit" name="Submit">
+    </form>
+  </body>
+</html>

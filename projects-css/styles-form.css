@@ -1,0 +1,45 @@
+body {
+  margin: auto;
+  background-color: rgb(9, 9, 68);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+h1, p {
+  text-align: center;
+}
+
+fieldset {
+  margin: auto;
+  padding: 10px;
+  width: 600px;
+}
+
+.design {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.input-field {
+  width: 300px;
+  height: 20px;
+  margin: 5px 0;
+  background-color: rgb(9, 9, 68);
+}
+
+#number {
+  width: 40px;
+}
+
+.studies {
+  display: block;
+  text-align: left;
+}
+.textarea {
+  background-color: rgb(9, 9, 68);
+  color: white;
+  margin: 0 0 0 100px;
+}
+input[name="school"] {
+  margin-left: 130px;
+}
