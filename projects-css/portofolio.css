@@ -1,6 +1,6 @@
-    body {
-      background-color: rgba(233, 227, 227, 0.788);
-    }
+  body {
+  background-color: rgb(236, 235, 235);
+}
 
     #navbar {
     display: flex;
@@ -13,6 +13,7 @@
     margin: 0;
     position: static;
     } 
+
     #navbar a {
       text-decoration: none;
       font-weight: bold;
@@ -30,6 +31,7 @@
       color: rgb(223, 155, 9);
       text-shadow: 3px 3px 2px rgba(235, 180, 78, 0.527);
     }
+
     #welcome-section {
       text-align: center;
     }
@@ -52,15 +54,18 @@
       justify-content: center;
       align-items: center;
     }
+    
     .projects-lens {
       width: 50%;
       margin-top: 30px;
     }
+
     .images {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
     }
+
     .hobbies-list {
       font-size: 1.2rem;
       color:  rgb(214, 148, 6);
@@ -71,5 +76,11 @@
 
     #hobbies {
       width: 100%;
-      background-image: url(https://wallpapers.com/images/high/piano-music-butterfly-background-079dq560yshj2is5.webp);
     }
+
+  @media (max-width: 650px) {
+    .images {
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+  }
